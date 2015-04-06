@@ -41,22 +41,5 @@
   </layout>
  </widget>
  <resources/>
- <connections>
-  <connection>
-   <sender>clickMeButton</sender>
-   <signal>clicked()</signal>
-   <receiver>lineUserName</receiver>
-   <slot>clear()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>227</x>
-     <y>221</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>270</x>
-     <y>119</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>

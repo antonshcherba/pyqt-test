@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file '.\WelcomeMessage.ui'
 #
-# Created: Mon Apr 06 16:36:53 2015
+# Created: Mon Apr 06 18:30:08 2015
 #      by: PyQt4 UI code generator 4.11.3
 #
 # WARNING! All changes made in this file will be lost!
@@ -44,7 +44,6 @@ class Ui_Dialog(object):
         self.gridLayout.addWidget(self.clickMeButton, 1, 0, 1, 1)
 
         self.retranslateUi(Dialog)
-        QtCore.QObject.connect(self.clickMeButton, QtCore.SIGNAL(_fromUtf8("clicked()")), self.lineUserName.clear)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
     def retranslateUi(self, Dialog):
